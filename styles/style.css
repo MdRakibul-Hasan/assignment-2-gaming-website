@@ -15,6 +15,8 @@ padding: 0;
     justify-content: space-between;
     align-items: center;
     padding: 15px 50px 15px 50px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
 .nav-left{
@@ -61,3 +63,71 @@ line-height: normal;
 }
 
 /* <!-- header section end --> */
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:url(../images/Group\ 14.png);
+    background-size: 520px;
+    background-repeat: no-repeat;
+    background-position: center left;
+
+}
+.banner-image{
+    width: 400px;
+}
+
+.banner-left{
+
+
+}
+
+.banner-left h3{
+    font-size: 38px;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.banner-left h2{
+text-align: left;
+font-size: 50px;
+font-weight: 800;
+text-transform: uppercase;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.banner-left p{
+    color: #534C64;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: lowercase;
+    padding-top: 3px;
+    padding-bottom: 2px;
+
+}
+
+.banner-btn{
+    display:flex;
+    gap: 15px;
+}
+.banner-button-blue{
+    background-color: #FF42A5;
+    padding: 10px 22px 10px 22px;
+    border: none;
+    border-radius: 40px;
+    color: #FFF;
+    font-weight: 600;
+}
+
+.banner-button-pink{
+    background-color: #4EC5F7;
+    padding: 10px 22px 10px 22px;
+    border: none;
+    border-radius: 40px;
+    color: #FFF;
+    font-weight: 600;
+}

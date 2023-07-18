@@ -5,4 +5,26 @@
     align-items: center;
     padding: 15px 50px 15px 50px;
 }
+/*  banner section start */
+.banner{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    background:url(../images/Group\ 14.png);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    row-gap: 40px;
+
+}
+.banner-image{
+    width: 280px;
+}
+.banner-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 }
