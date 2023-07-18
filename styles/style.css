@@ -137,7 +137,7 @@ background-clip: text;
 
 .gamer-parent{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding: 50px 80px 50px 80px;
 }
@@ -164,3 +164,37 @@ gap: 10px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     }
+/* gamer section end */
+
+.instant-gaming{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.instant-gamer-img-1{
+    width: 310px;
+}
+
+.instant-gaming span{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #e01e93 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* responsive starts from here============================================= */
