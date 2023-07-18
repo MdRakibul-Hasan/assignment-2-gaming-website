@@ -115,7 +115,8 @@ background-clip: text;
     gap: 15px;
 }
 .banner-button-blue{
-    background-color: #FF42A5;
+    background-color: #4EC5F7;
+    
     padding: 10px 22px 10px 22px;
     border: none;
     border-radius: 40px;
@@ -124,10 +125,42 @@ background-clip: text;
 }
 
 .banner-button-pink{
-    background-color: #4EC5F7;
+    background-color: #FF42A5;
     padding: 10px 22px 10px 22px;
     border: none;
     border-radius: 40px;
     color: #FFF;
     font-weight: 600;
 }
+
+/* banner section end here */
+
+.gamer-parent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 80px 50px 80px;
+}
+
+.gamer-image{
+    width: 500px;
+}
+.gamer-right-child{
+display: flex;
+flex-direction: column;
+align-items: end;
+gap: 10px;
+}
+.gamer-right-child p{
+ text-align: right;
+}
+
+.gamer-right-child h3{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
