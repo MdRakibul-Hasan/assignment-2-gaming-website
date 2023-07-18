@@ -75,4 +75,19 @@
          text-align:center;
         }
       
+/* we are gamer section end */
+
+.instant-gaming{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.instant-play, h3 , p {
+text-align: center;
+
+}
+
     }   

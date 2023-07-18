@@ -177,14 +177,28 @@ gap: 10px;
     width: 310px;
 }
 
-.instant-gaming span{
-    text-align: left;
+.instant-play{
+    text-align: right;
     font-size: 30px;
     font-weight: 800;
     background: linear-gradient(180deg, #F948B2 0%, #e01e93 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.instant-gaming h3, p {
+    text-align: right;
+}
+
+.instant-gaming-right{
+    position: relative;
+}
+
+.instant-gamer-img-2{
+    width: 150px;
+    position: absolute;
+    top: 1050px;
+    right: 450px;
 }
 
 
@@ -198,3 +212,96 @@ gap: 10px;
 
 
 /* responsive starts from here============================================= */
+@media screen and (max-width:426px){
+    .header, .nav-right, .normal-nav{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 50px 15px 50px;
+    }
+    /*  banner section start */
+    .banner{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        background:url(../images/Group\ 14.png);
+        background-size: 400px;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        row-gap: 50px;
+    
+    }
+    .banner-image{
+        width: 280px;
+    }
+    .banner-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 40px;
+    
+    }
+    
+    
+    
+    .banner-left h3{
+        font-size: 30px;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+        text-align: center;
+        
+    }
+    .banner-left h2{
+        text-align: center;
+        
+    }
+    
+    .banner-left p{
+        color: #534C64;
+        font-size: 13px;
+        font-weight: 400;
+        text-transform: lowercase;
+        padding-top: 3px;
+        padding-bottom: 2px;
+        
+    
+    }
+      /* banner section ends here */
+    .gamer-parent{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 50px 80px 50px 80px;
+    }
+    .gamer-image{
+        width: 350px;
+    }
+    .gamer-right-child{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        }
+        .gamer-right-child p{
+         text-align:center;
+        }
+      
+/* we are gamer section end */
+
+.instant-gaming{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.instant-play, h3 , p {
+text-align: center;
+
+}
+
+    } 
