@@ -516,7 +516,7 @@ justify-content: space-around;
 .banner2{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
     background:url(../images/Group-15-long.png);
     background-size: 380px;
@@ -525,6 +525,11 @@ justify-content: space-around;
     row-gap: 30px;
 
 }
+
+.banner-left2{
+    padding: 28px;
+}
+
 .banner-image{
     width: 280px;
     padding-left: 50px;
