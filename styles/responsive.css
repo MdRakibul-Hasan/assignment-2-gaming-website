@@ -1,0 +1,457 @@
+/* responsive starts from here============================================= */
+@media screen and (max-width:426px){
+    .header, .nav-right, .normal-nav{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 50px 15px 50px;
+    }
+    /*  banner section start */
+    .banner{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        background:url(../images/Group\ 14.png);
+        background-size: 400px;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        row-gap: 50px;
+    
+    }
+    .banner-image{
+        width: 280px;
+    }
+    .banner-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 40px;
+    
+    }
+    
+    
+    
+    .banner-left h3{
+        font-size: 30px;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+        text-align: center;
+        
+    }
+    .banner-left h2{
+        text-align: center;
+        
+    }
+    
+    .banner-left p{
+        color: #534C64;
+        font-size: 13px;
+        font-weight: 400;
+        text-transform: lowercase;
+        padding-top: 3px;
+        padding-bottom: 2px;
+        text-align: left;
+        
+    
+    }
+      /* banner section ends here */
+    .gamer-parent{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 50px 80px 50px 80px;
+    }
+    .gamer-image{
+        width: 350px;
+    }
+    .gamer-right-child{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        }
+        .gamer-right-child p{
+         text-align:center;
+        }
+      
+            /* we are gamer section end */
+/* =====================gaming cards======================== */
+.bonus-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    row-gap: 50px;
+}
+.container1, .container2, .container3, .container4{
+    width: 250px;
+    height: 300px;
+}
+
+
+
+/* =====================gaming cards======================== */
+            .instant-gaming{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 50px;
+            }
+        
+                    .instant-play-left > p {
+        text-align: center;
+                    }
+        .instant-play-left > .instant-play {
+            text-align: center;
+            
+            }
+            .instant-play-left > h3 {
+                text-align: center;
+        
+        }
+
+/* ==========banner 2 pink color section starts here============ */
+
+
+.banner2{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    background:url(../images/Group-15-long.png);
+    background-size: 380px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    row-gap: 30px;
+
+}
+
+.banner-left2{
+    padding: 28px;
+}
+
+.banner-image{
+    width: 280px;
+    padding-left: 50px;
+}
+.banner-right2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ==========banner 2 pink color section ends here============ */
+/* <!-- =======================all button section================ start --> */
+.button-all-parent{
+    display: grid;
+ grid-template-columns: repeat(3, 1fr);
+    justify-content:center;
+    align-items: center;
+    row-gap: 15px;
+    padding: 10px;
+
+}
+.button-image1{
+    width: 25px;
+}
+.button1 > p {
+    font-size: 8px;
+    font-weight: 600;
+
+}
+
+.button1{
+    display: flex;
+    padding: 5px 4px 5px 4px;
+    justify-content:center;
+    align-items: center;
+
+}   
+/* =======================footer section start=============== */
+
+
+.footer-menu{
+    display: grid;
+ grid-template-columns: repeat(3, 1fr);
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    text-align: center;
+
+}
+.footer-icons{
+    display: grid;
+ grid-template-columns: repeat(3, 50px);
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    text-align: center;
+
+}
+.footer-nav{
+    display: grid;
+ grid-template-columns: repeat(2, 120px);
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    text-align: center;
+
+}
+.copy-right{
+    display: grid;
+ grid-template-columns: repeat(1, 200px);
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+        }
+
+    
+
+        /* ====================responsive tablet----------------- */
+
+        @media screen and (min-width:427px) and (max-width:769px){
+
+
+            /* .header, .nav-right, .normal-nav{
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 15px 50px 15px 50px; */
+            
+            /*  banner section start */
+            .banner{
+                display: flex;
+                /* flex-direction: column-reverse; */
+                justify-content: space-around;
+                align-items: center;
+                background:url(../images/Group\ 14.png);
+                background-size: 500px;
+                background-repeat: no-repeat;
+                background-position: center left;
+                row-gap: 50px;
+                padding-top: 20px;
+            
+            }
+            .banner-image{
+                width: 280px;
+            }
+            .banner-left{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding-bottom: 40px;
+            
+            }
+            
+            
+            
+            .banner-left h3{
+                font-size: 30px;
+                font-weight: 500;
+                line-height: normal;
+                text-transform: uppercase;
+                text-align: center;
+                
+            }
+            .banner-left h2{
+                text-align: center;
+                
+            }
+            
+            .banner-left p{
+                color: #534C64;
+                font-size: 13px;
+                font-weight: 400;
+                text-transform: lowercase;
+                padding-top: 3px;
+                padding-bottom: 2px;
+                text-align: left;
+                
+            
+            }
+              /* banner section ends here */
+            .gamer-parent{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                padding: 50px 80px 50px 80px;
+            }
+            .gamer-image{
+                width: 400px;
+            }
+            .gamer-right-child{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+                }
+                .gamer-right-child p{
+                 text-align:center;
+                }
+              
+                    /* we are gamer section end */
+        /* =====================gaming cards======================== */
+        .bonus-section{
+            display: grid;
+            grid-template-columns: repeat(2, 300px);
+            justify-content:center;
+            padding-left:30px;
+            row-gap: 50px;
+        }
+        .container1, .container2, .container3, .container4{
+            width: 250px;
+            height: 300px;
+        }
+        
+        
+        
+        /* =====================gaming cards======================== */
+                    .instant-gaming{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 50px;
+                    }
+                
+                            .instant-play-left > p {
+                text-align: center;
+                            }
+                .instant-play-left > .instant-play {
+                    text-align: center;
+                    
+                    }
+                    .instant-play-left > h3 {
+                        text-align: center;
+                
+                }
+        
+        /* ==========banner 2 pink color section starts here============ */
+        
+        
+        .banner2{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            background:url(../images/Group-15-long.png);
+            background-size: 380px;
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            row-gap: 30px;
+        
+        
+        }
+        
+        .banner-left2{
+            padding: 20px;
+
+        }
+        
+        .banner-image{
+            width: 280px;
+            padding-left: 50px;
+        }
+        .banner-right2{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        /* ==========banner 2 pink color section ends here============ */
+        /* <!-- =======================all button section================ start --> */
+        .button-all-parent{
+            display: grid;
+         grid-template-columns: repeat(3, 200px);
+            justify-content:center;
+            align-items: center;
+            row-gap: 15px;
+            padding: 10px;
+        
+        }
+        .button-image1{
+            width: 25px;
+        }
+        .button1 > p {
+            font-size: 8px;
+            font-weight: 600;
+        
+        }
+        
+        .button1{
+            display: flex;
+            padding: 5px 4px 5px 4px;
+            justify-content:center;
+            align-items: center;
+        
+        }   
+        /* =======================footer section start=============== */
+        
+        
+        .footer-menu{
+            display: grid;
+         grid-template-columns: repeat(3, 100px);
+            justify-content:center;
+            align-items: center;
+            gap: 10px;
+            padding: 20px;
+            text-align: center;
+        
+        }
+        .footer-icons{
+            display: grid;
+         grid-template-columns: repeat(3, 50px);
+            justify-content:center;
+            align-items: center;
+            gap: 10px;
+            padding: 20px;
+            text-align: center;
+        
+        }
+        .footer-nav{
+            display: grid;
+         grid-template-columns: repeat(2, 120px);
+            justify-content:center;
+            align-items: center;
+            gap: 10px;
+            padding: 20px;
+            text-align: center;
+        
+        }
+        .copy-right{
+            display: grid;
+         grid-template-columns: repeat(1, 300px);
+            justify-content:center;
+            align-items: center;
+            gap: 10px;
+            padding: 20px;
+            text-align: center;
+        
+        }
+
+
+
+
+
+
+
+
+
+        }
+
+
+    
