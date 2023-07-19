@@ -294,8 +294,45 @@ justify-content: space-around;
 
 /* <!-- ==============banner section 2 pink color================ end--> */
 
+/* <!-- =======================all button section================ starts --> */
 
+.button1{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ background: #ffffff;
+ max-width:fit-content;
+ padding: 5px 13px 5px 13px;
+ gap: 7px;
+ border-radius: 30px;
+ border: 2px solid #ffffff;
+}
 
+.button-image1{
+    width: 36px;
+}
+.button1 > p {
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+ .button1:hover {
+    border: 2px solid #FF42A5;
+    cursor: pointer;
+    text-decoration: none;
+    color: #FF42A5 ;
+ }
+
+.button-all-parent{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px;
+    justify-content: center;
+    row-gap: 20px;
+}
+/* <!-- =======================all button section================ ends --> */
 
 
 
@@ -432,6 +469,35 @@ justify-content: space-around;
 }
 
 /* ==========banner 2 pink color section ends here============ */
+/* <!-- =======================all button section================ start --> */
+.button-all-parent{
+    display: grid;
+ grid-template-columns: repeat(3, 1fr);
+    justify-content:center;
+    align-items: center;
+    row-gap: 15px;
+    padding: 10px;
+
+}
+.button-image1{
+    width: 25px;
+}
+.button1 > p {
+    font-size: 8px;
+    font-weight: 600;
+
+}
+
+.button1{
+    display: flex;
+    padding: 5px 4px 5px 4px;
+    justify-content:center;
+    align-items: center;
+
+}   
+
+
+
 
 
 
