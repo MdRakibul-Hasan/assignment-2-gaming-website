@@ -107,6 +107,7 @@ background-clip: text;
     text-transform: lowercase;
     padding-top: 3px;
     padding-bottom: 2px;
+    text-align: left;
 
 }
 
@@ -186,9 +187,13 @@ gap: 10px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.instant-gaming h3, p {
-    text-align: right;
+.instant-play-left > h3 {
+    text-align:end;
 }
+    .instant-play-left > p {
+        text-align: right;
+    }
+
 
 .instant-gaming-right{
     position: relative;
@@ -265,6 +270,7 @@ gap: 10px;
         text-transform: lowercase;
         padding-top: 3px;
         padding-bottom: 2px;
+        text-align: left;
         
     
     }
@@ -289,19 +295,40 @@ gap: 10px;
          text-align:center;
         }
       
-/* we are gamer section end */
+            /* we are gamer section end */
 
-.instant-gaming{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-}
+            .instant-gaming{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 50px;
+            }
+        
+                    .instant-play-left > p {
+        text-align: center;
+                    }
+        .instant-play-left > .instant-play {
+            text-align: center;
+            
+            }
+            .instant-play-left > h3 {
+                text-align: center;
+        
+        }
 
-.instant-play, h3 , p {
-text-align: center;
 
-}
 
-    } 
+
+
+
+
+
+
+
+        }
+
+    
+
+
+    
