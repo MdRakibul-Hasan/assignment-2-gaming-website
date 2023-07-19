@@ -206,6 +206,94 @@ gap: 10px;
     right: 200px;
 }
 
+/* <!-- ==============banner section 2 pink color================ start--> */
+
+.banner2-parent{
+    background: linear-gradient(90deg, #ff42a4db 0%, #FF42A5 100%);
+
+
+}
+
+
+.banner2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:url(../images/Group-15-long.png);
+    background-size: 550px;
+    background-repeat: no-repeat;
+    background-position: center right;
+    margin-top: 120px;
+    margin-right: 0px;
+
+
+}
+.banner-image2{
+    width: 420px;
+}
+
+.banner2-list-parent{
+display: flex;
+justify-content: space-around;
+
+}
+
+.list-left > li{
+    text-align: left;
+    list-style: none;
+    font-size: 16px;
+    color: #FFF;
+
+}
+.list-right > li{
+    text-align: right;
+    list-style: none;
+    font-size: 16px;
+    color: #FFF;
+
+}
+
+.banner-left2 h3{
+    font-size: 38px;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+    color: #FFF;
+
+}
+
+
+
+.banner-left2 p{
+    color: #534C64;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: lowercase;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    text-align: left;
+    color: #FFF;
+
+}
+
+.banner-button-blue2{
+    padding: 10px 20px 10px 20px;
+    background: #FFF;
+    color: #FF42A5;
+    font-size: 14px;
+    border: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.banner-left2{
+    padding: 55px;
+}
+
+
+
+/* <!-- ==============banner section 2 pink color================ end--> */
+
 
 
 
@@ -317,9 +405,33 @@ gap: 10px;
         
         }
 
+/* ==========banner 2 pink color section starts here============ */
 
 
+.banner2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background:url(../images/Group-15-long.png);
+    background-size: 380px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    row-gap: 30px;
 
+}
+.banner-image{
+    width: 280px;
+    padding-left: 50px;
+}
+.banner-right2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ==========banner 2 pink color section ends here============ */
 
 
 
