@@ -167,6 +167,227 @@ gap: 10px;
     }
 /* gamer section end */
 
+
+
+/* <!--================= bonus section start here =========================--> */
+.gradient-font{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.bonus-title h3{
+    text-align: center;
+    font-size: 30px;
+}
+.bonus-title h5{
+    text-align: center;
+    font-weight: 500;
+
+}
+/* ==================== */
+.bonus-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container1{
+
+    width: 200px;
+height: 300px;
+flex-shrink: 0;
+background-image: url(../images/Rectangle\ 4.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+inset: 0;
+transition: all .5s ease-in-out;
+border-radius: 16px;
+}
+
+
+
+.container1:hover{
+    border-radius: 16px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(../images/Rectangle\ 4.png), rgb(145, 144, 144) 50% / cover no-repeat;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+position: relative;
+cursor: pointer;
+
+}
+
+.middle1 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.container1:hover .middle1 {
+  opacity: 1;
+}
+/*===================for 2nd card=================== */
+.container2{
+
+    width: 200px;
+height: 300px;
+flex-shrink: 0;
+background-image: url(../images/Rectangle\ 5.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+inset: 0;
+transition: all .5s ease-in-out;
+border-radius: 16px;
+}
+
+
+
+.container2:hover{
+    border-radius: 16px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(../images/Rectangle\ 5.png), rgb(145, 144, 144) 50% / cover no-repeat;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+position: relative;
+cursor: pointer;
+
+}
+
+.middle2 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.container2:hover .middle2 {
+  opacity: 1;
+}
+
+/* =======================for 3rd card======================== */
+.container3{
+
+    width: 200px;
+height: 300px;
+flex-shrink: 0;
+background-image: url(../images/Rectangle\ 6.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+inset: 0;
+transition: all .5s ease-in-out;
+border-radius: 16px;
+}
+
+
+
+.container3:hover{
+    border-radius: 16px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(../images/Rectangle\ 6.png), rgb(145, 144, 144) 50% / cover no-repeat;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+position: relative;
+cursor: pointer;
+
+}
+
+.middle3 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.container3:hover .middle3 {
+  opacity: 1;
+}
+
+/* =======================for 4th card====================== */
+
+.container4{
+
+    width: 200px;
+height: 300px;
+flex-shrink: 0;
+background-image: url(../images/Rectangle\ 7.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+inset: 0;
+transition: all .5s ease-in-out;
+border-radius: 16px;
+}
+
+
+
+.container4:hover{
+    border-radius: 16px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(../images/Rectangle\ 7.png), rgb(145, 144, 144) 50% / cover no-repeat;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+position: relative;
+cursor: pointer;
+
+}
+
+.middle4 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.container4:hover .middle4 {
+  opacity: 1;
+}
+
+
+/* ===========common================ */
+.text i{
+    font-size: 20px;
+}
+.text span{
+    font-size: 14px;
+    color: #ff3bb0;
+    font-weight: 600;
+
+}
+
+.all-common{
+margin-top: 310px;
+font-weight: 400;
+}
+
+/* <!--================= bonus section ends here =========================--> */
+
+
+
 .instant-gaming{
     display: flex;
     justify-content: center;
@@ -489,7 +710,16 @@ justify-content: space-around;
         }
       
             /* we are gamer section end */
+/* =====================gaming cards======================== */
+.bonus-section{
+    display: flex;
+    flex-direction: column;
+}
 
+
+
+
+/* =====================gaming cards======================== */
             .instant-gaming{
                 display: flex;
                 flex-direction: column;
